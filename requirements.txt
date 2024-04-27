@@ -1,0 +1,10 @@
+openai 
+langchain
+langchain-community 
+sentence_transformers
+unstructured
+pydantic
+typing-inspect
+typing_extensions
+chromadb
+unstructured[pdf]
