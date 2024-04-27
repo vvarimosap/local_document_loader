@@ -28,7 +28,7 @@ docs = split_docs(documents)
 # embeddings using langchain
 #from langchain.embeddings import SentenceTransformerEmbeddings
 from langchain_community.embeddings import SentenceTransformerEmbeddings
-embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = SentenceTransformerEmbeddings(model_name="TurkuNLP/gpt3-finnish-small")#"all-MiniLM-L6-v2")
 
 # using chromadb as a vectorstore and storing the docs in it
 #from langchain.vectorstores import Chroma
