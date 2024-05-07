@@ -3,6 +3,9 @@ langchain
 langchain-community 
 sentence_transformers
 unstructured
+unstructured[xlsx]
+unstructured[docx]
+unstructured[pptx]
 pydantic
 typing-inspect
 typing_extensions
