@@ -15,13 +15,14 @@ Running:
 
 1. . ./set_api_key.sh
 2. echo $OPENAI_API_KEY
+   
 3. Finnish Documents:
    
   3a. python3 index_documents.py - to create ChromaDB from documents in data folder.
   
   3b. python3 load_documents.py - to load documents and use RAG and OpenAI to generate answer.
   
-5. English Documents:
+4. English Documents:
    
    4a. python3 index_documents_en.py - to create ChromaDB from documents in data_en folder.
    
