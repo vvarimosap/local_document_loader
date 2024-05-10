@@ -8,8 +8,10 @@ Pre-requisites:
 
 1. brew install poppler
 2. brew install tesseract
-3. pip3 install -r requirements.txt
-4. Modify set_api_key.sh with your own OpenAI API key
+3. python -m venv venv
+4. source venv/bin/activate
+5. pip3 install -r requirements.txt
+6. Modify set_api_key.sh with your own OpenAI API key
 
 Running:
 
