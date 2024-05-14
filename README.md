@@ -1,4 +1,4 @@
-Local document loader utilizing OpenAI GPT-4 and document store.
+Local document loader utilizing OpenAI GPT-4 and document store to provide context for OpenAI (LLM) from documents based on user question.
 
 Expects your personal documents to be in folder "data" or "data_en" under this folder.
 
